@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<styles>
+	<images>
+		<image item="preloader" assets="image" xpos="340" ypos="163">shared_assets/generic/GSM/anim_preloader.swf</image>
+		<image item="template_bg"></image>
+	</images>
+	<assets>
+		<asset item="rubric" xpos="10" ypos="10" width="735" color="000000" />
+		<asset item="videoPlayer" xpos="30" ypos="90">
+			<images>
+				<image type="videoOverlay" bgalpha="30" bgcolor="000000" xpos="340" ypos="180">shared_assets/generic/video_overlay.swf</image>
+				<image type="videoHolder" xpos="1" ypos="1">shared_assets/generic/video_holder.swf</image>
+				<image type="videoControls" xpos="245" ypos="390">shared_assets/generic/video_controls.swf</image>
+				<image type="videoBg">shared_assets/generic/videoplayer_bg_lg.swf</image>
+			</images>
+		</asset>
+	</assets>
+</styles>

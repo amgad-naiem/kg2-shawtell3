@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<rubricText>
+		<text><![CDATA[<font size="20"><b>Click and listen.</b></font>]]></text>
+	</rubricText>
+	<introAudio url="content/hotspot/assets/intro.mp3" playMe="false"/>
+	  
+	<!--   NOTES for extraGeneralAudio: attribute "included" affects on the soundButton  -->
+	<extraGeneralAudio included="false" url="content/hotspot/assets/bag.mp3"/>
+	<exerciseImage showMe="true" url="content/hotspot/assets/images/unit5_hotspot.swf" xpos="0" ypos="0"/>
+
+	<!--
+	NOTES
+	item attr audio: it is playing when user click item;
+	item attr playMe: playing audio when is true;
+	itemText attr showMe: is true when the item is a text;
+	itemText attr bgColor: it is background color(in hex) for the item text. If this is not neccesary leave this attr blank(eg. bgColor="");           
+	label attr showMe: it load label image and show this;
+	-->
+
+	<hot_spots>
+        <item xpos="513" ypos="198" width="119" height="85" audio="content/hotspot/assets/audio/dance.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">dance</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label.swf" xpos="578" ypos="165"><![CDATA[<font size="20">dance</font>]]></label>
+        </item>
+        <item xpos="111" ypos="156" width="113" height="70" audio="content/hotspot/assets/audio/run.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">run</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label.swf" xpos="92" ypos="114"><![CDATA[<font size="20">run</font>]]></label>
+        </item>
+        <item xpos="92" ypos="282" width="115" height="185" audio="content/hotspot/assets/audio/jump_rope.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">jump rope</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label.swf" xpos="90" ypos="460"><![CDATA[<font size="20">jump rope</font>]]></label>
+        </item>
+        <item xpos="224" ypos="230" width="80" height="168" audio="content/hotspot/assets/audio/roller_skate.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">roller skate</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label_tall.swf" xpos="237" ypos="180"><![CDATA[<font size="20">roller skate</font>]]></label>
+        </item>
+        <item xpos="396" ypos="259" width="277" height="207" audio="content/hotspot/assets/audio/ride_a_bike.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">ride a bike</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label.swf" xpos="460" ypos="465"><![CDATA[<font size="20">ride a bike</font>]]></label>
+        </item>
+        <item xpos="305" ypos="300" width="80" height="115" audio="content/hotspot/assets/audio/ride_a_scooter.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">ride a scooter</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label_tall.swf" xpos="243" ypos="406"><![CDATA[<font size="20">ride a scooter</font>]]></label>
+        </item>
+      </hot_spots>
+</game>
+
+
+
+
+
+
+
+
+
+
+
+

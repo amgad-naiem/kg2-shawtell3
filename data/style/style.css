@@ -1,0 +1,329 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font: 100%/1.4 tahoma, Verdana, Arial, Helvetica, sans-serif;
+	background: #f7e4c1;
+	margin: 0;
+	padding: 0;
+	color: #d05234;
+	text-align: center; /*internet explorer layout center fix - see container css */
+}
+
+
+ul, dl { 
+	padding: 0;
+	margin: 0;
+}
+
+h1{
+	font-size:24px;
+	color:#d05234;
+	text-align: center;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 
+	padding-right: 15px;
+	padding-left: 15px; 
+}
+
+
+a img { 
+	border: none;
+}
+a:link {
+	color: #d05234;
+	text-decoration: none; 
+}
+a:visited {
+	color: #d05234;
+	text-decoration: none;
+}
+
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+
+
+
+.boxshadow {
+	width: 800px;
+	height: 647px;	
+	margin-top:10px;
+	margin-left: auto;
+	margin-right: auto;
+  -webkit-box-shadow:rgba(0, 0, 0, 0.2) 14px 14px 14px;  
+  box-shadow:rgba(0, 0, 0, 0.4) 4px 4px 8px;
+
+}
+
+
+/*navigation controls layout of unit buttons, automatically placed in columns. Number of colums dictated by width property below*/
+
+#navigation {
+  padding-top:80px;
+  margin:0 auto;
+  width:800px;
+}
+
+
+#navigation img {
+-webkit-box-shadow:rgba(0, 0, 0, 0.2) 4px 4px 4px;
+  -webkit-transition:all 0.5s ease-out;
+  border:5px solid #EEEEEE;
+  box-shadow:rgba(0, 0, 0, 0.2) 4px 4px 4px;
+  margin:10px;
+  transition:all 0.7s ease-out;
+	
+}
+
+
+#navigation img:hover {
+  -webkit-transition:all 0.5s ease-out;	  
+    transition:all 0.2s ease-out;
+	-webkit-transform:rotate(-7deg);
+	-moz-transform:rotate(-7deg);
+	-transform:rotate(-7deg);
+	-ms-transform:rotate(-7deg);
+	
+	
+	  
+}
+
+
+#navigation img:active {
+        position:relative;
+        top:1px;
+    }
+	
+	
+	
+/*nav_activity 	controls layout of activity buttons, automatically placed in columns. Number of columns dictated by width property below and the width of each button*/
+
+#nav_activity {
+  margin:0 auto;
+  width:500px;
+}
+
+
+#nav_activity img {
+ -webkit-box-shadow:rgba(0, 0, 0, 0.2) 4px 4px 4px;
+  border:5px solid #EEEEEE;
+  border-radius:25px;
+  box-shadow:rgba(0, 0, 0, 0.2) 4px 4px 4px;
+  margin:10px;
+  width:400px;
+  height:70px;
+  -webkit-transition:all 0.2s;
+  transition:all 0.2s;
+  -webkit-filter: opacity(80%);
+
+	
+}
+
+
+#nav_activity img:hover {
+  -webkit-transition:all 0.1s ease-out;	  
+   transition:all 0.1s ease-out;
+   width:415px;
+   height:70px;
+	-webkit-filter: opacity(100%);
+
+	
+	
+	  
+}
+	
+/*nav_song used to place individual song buttons in a single row above other activity buttons*/
+#nav_song {
+  margin-left:192px;
+  width:400px;
+}
+
+
+#nav_song img {
+ -webkit-box-shadow:rgba(0, 0, 0, 0.2) 4px 4px 4px;
+  border:5px solid #EEEEEE;
+  border-radius:25px;
+  box-shadow:rgba(0, 0, 0, 0.2) 4px 4px 4px;
+  margin-left:10px;
+  margin-bottom:10px;
+  width:auto; /*for two items per row, make each 150 px wide; for three items per row, make each 100 px wide*/
+  height:70px;
+  -webkit-transition:all 0.2s;
+  transition:all 0.2s;
+  -webkit-filter: opacity(80%);
+
+	
+}
+
+
+#nav_song img:hover {
+  -webkit-transition:all 0.1s ease-out;	  
+   transition:all 0.1s ease-out;
+   transform:translateY(-5px);
+	-ms-transform:translateY(-5px); /* IE 9 */
+	-webkit-transform:translateY(-5px); /* Safari and Chrome */
+	-webkit-filter: opacity(100%);
+
+	
+	
+	  
+}
+
+
+
+.container {
+	background: #fff;
+	width: 800px;
+	height: 600px;	
+	margin-top:10px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#activityshadow {	
+  -webkit-box-shadow:rgba(0, 0, 0, 0.2) 14px 14px 14px;  
+  box-shadow:rgba(0, 0, 0, 0.4) 4px 4px 8px;
+
+}
+
+.header {
+	background: #fff;
+	padding:0px;
+	height:100px;
+}
+
+
+.content {
+
+	padding: 10px 0;
+	border-style:solid;
+	border-color:#FFF;
+	height:477px;
+	
+}
+
+
+.license{
+	padding: 10px 0;
+	border-style:solid;
+	border-color:#000;
+	border-width: 0 0px 0px 0px;
+	height:430px;
+	overflow:scroll;
+}
+.license h1 {
+	 font-size: 20px;
+	 text-align:center;
+}
+
+ .license h2 {
+	 font-size: 16px;
+	 text-align:center;
+}
+	 
+	 .license h3 {font-size: 14px}
+	 
+	 .license p {font-size:12px;}
+	 
+	 .license li {font-size: 12px;}
+	 
+
+.footer {
+	width:781px;
+	height: 23px;
+	padding: 14px 10px 10px 10px;
+	background: #002147;
+	color: #fff;
+	font-size:12px;
+	text-align:left;	
+}
+
+.footer a:link {
+	color: #fff;
+	text-decoration: underline; 
+}
+.footer a:visited {
+	color: #0099cc;
+	text-decoration: underline;
+}
+.footer a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+
+
+.fltrt {  
+	float: right;
+	margin-left: 8px;
+	text-align:right;
+}
+.fltlft { 
+	float: left;
+	text-align:left;
+	
+}
+
+/* All back buttons controls below. 
+back_btn1 is the back button for activity screen.
+back_btn2 is the back button for menu with 1 activities menu.
+*/	
+
+#back_btn1 {
+	float: left;
+	position: relative;
+	top: 50px;
+	left:5px;
+    -webkit-transition:all 0.9s;
+    transition:all 0.9s;
+	
+}
+
+#back_btn1:hover {
+
+	-webkit-filter: saturate(4);
+	-ms-filter: saturate(28);
+	filter: saturate(30%)
+
+	
+}
+
+	
+	
+
+#back_btn2 {
+	float: left;
+	position: relative;
+	left:5px;
+    -webkit-transition:all 0.9s;
+    transition:all 0.9s;
+	
+}
+
+#back_btn2:hover {
+
+	-webkit-filter: saturate(4);
+	-ms-filter: saturate(28);
+	filter: saturate(30%)
+
+	
+}
+
+	
+
+	
+
+.padimg {padding-top:25px; padding-left:30px; float:left;}
+
+
+
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}

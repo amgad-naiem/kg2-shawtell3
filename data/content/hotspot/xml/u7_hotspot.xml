@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<rubricText>
+		<text><![CDATA[<font size="20"><b>Click and listen.</b></font>]]></text>
+	</rubricText>
+	<introAudio url="content/hotspot/assets/intro.mp3" playMe="false"/>
+	  
+	<!--   NOTES for extraGeneralAudio: attribute "included" affects on the soundButton  -->
+	<extraGeneralAudio included="false" url="content/hotspot/assets/bag.mp3"/>
+	<exerciseImage showMe="true" url="content/hotspot/assets/images/unit7_hotspot.swf" xpos="0" ypos="0"/>
+
+	<!--
+	NOTES
+	item attr audio: it is playing when user click item;
+	item attr playMe: playing audio when is true;
+	itemText attr showMe: is true when the item is a text;
+	itemText attr bgColor: it is background color(in hex) for the item text. If this is not neccesary leave this attr blank(eg. bgColor="");           
+	label attr showMe: it load label image and show this;
+	-->
+
+		<hot_spots>
+        <item xpos="234" ypos="174" width="74" height="134" audio="content/hotspot/assets/audio/chef.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">chef</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label.swf" xpos="203" ypos="129"><![CDATA[<font size="20">chef</font>]]></label>
+        </item>
+        <item xpos="454" ypos="267" width="99" height="181" audio="content/hotspot/assets/audio/police_officer.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">police officer</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label_tall.swf" xpos="431" ypos="445"><![CDATA[<font size="20">police officer</font>]]></label>
+        </item>
+        <item xpos="328" ypos="227" width="101" height="180" audio="content/hotspot/assets/audio/firefighter.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">firefighter</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label.swf" xpos="273" ypos="410"><![CDATA[<font size="20">firefighter</font>]]></label>
+        </item>
+        <item xpos="148" ypos="331" width="99" height="142" audio="content/hotspot/assets/audio/vet.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">vet</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label.swf" xpos="78" ypos="449"><![CDATA[<font size="20">vet</font>]]></label>
+        </item>
+        <item xpos="614" ypos="254" width="92" height="146" audio="content/hotspot/assets/audio/taxi_driver.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">taxi driver</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label.swf" xpos="574" ypos="374"><![CDATA[<font size="20">taxi driver</font>]]></label>
+        </item>
+        <item xpos="532" ypos="134" width="75" height="121" audio="content/hotspot/assets/audio/nurse.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">nurse</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label.swf" xpos="496" ypos="97"><![CDATA[<font size="20">nurse</font>]]></label>
+        </item>
+      </hot_spots>
+</game>
+
+
+
+
+
+
+
+
+
+
+
+

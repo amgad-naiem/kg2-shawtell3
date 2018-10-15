@@ -1,0 +1,10 @@
+<compositequiz>
+  <quizzes>
+    <quiz id="1" type="MediaSubtitle">
+      <rubric><![CDATA[<b>Listen and sing.</b>]]></rubric>
+      <videoPlayer name="video" video="content/video_player/assets/video/u4_song_2.swf"/>
+      <media interval="100" path="video">
+      </media>
+    </quiz>
+  </quizzes>
+</compositequiz>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<styles>
+	
+	<images>
+		<image item="preloader" xpos="360" ypos="260">shared_assets/generic/GSM/anim_preloader.swf</image>
+		<!--<image item="background">shared_assets/generic/GSM/background.swf</image>-->
+	</images>
+	<buttons>
+		
+		<button item="start" xpos="40" ypos="280">
+			<image>shared_assets/generic/GSM/button_start.swf</image>
+			<audio>shared_assets/generic/click_low.mp3</audio>
+		</button>
+		<button item="reset" xpos="248" ypos="390">
+			<image>shared_assets/generic/GSM/button_play_again.swf</image>
+			<audio>shared_assets/generic/click_low.mp3</audio>
+		</button>
+	</buttons>
+	<sounds>
+		<sound item="fanfare">
+			<link>shared_assets/generic/applause2.mp3</link>
+		</sound>
+		<sound item="correct">
+			<link>shared_assets/generic/correct.mp3</link>
+		</sound>
+		<sound item="wrong">
+			<link>shared_assets/generic/wrong.mp3</link>
+		</sound>
+	</sounds>
+	<assets>
+	<!-- **
+		rubric ITEM (inherent asset)  :: THIS ASSET IS EMPTY - IT CONTROLS LAYOUT OF RUBRIC 'ASSET' WITHIN THE TEMPLATE
+			xpos,ypos ATTRIBUTEs :: sets the coordinates on the canvas. 
+			width ATTRIBUTE :: sets the width of the rubric. br tag can be used to linebreak the rubric text.
+			color ATTRIBUTE: RGB value of colour of the text.
+		** -->	
+		<asset item="rubric" xpos="10" ypos="10" width="735" color="000000" />
+		<asset item="cards" xorig="140" yorig="250" xstep="124" ystep="85">
+			<image>shared_assets/generic/GSM/maze_card4.swf</image>
+		</asset>
+		<asset item="character">
+			<image>content/maze/assets/pics/fifi.swf</image>
+		</asset>
+		<asset item="feedback" visible="true" xpos="170" ypos="171">
+			<win><![CDATA[<p align='center'>Good job!]]></win>
+			<image>content/maze/assets/pics/feedback_maze.swf</image>
+		</asset>
+			
+	</assets>
+</styles>

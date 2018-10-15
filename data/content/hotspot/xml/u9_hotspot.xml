@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<rubricText>
+		<text><![CDATA[<font size="20"><b>Click and listen.</b></font>]]></text>
+	</rubricText>
+	<introAudio url="content/hotspot/assets/intro.mp3" playMe="false"/>
+	  
+	<!--   NOTES for extraGeneralAudio: attribute "included" affects on the soundButton  -->
+	<extraGeneralAudio included="false" url="content/hotspot/assets/bag.mp3"/>
+	<exerciseImage showMe="true" url="content/hotspot/assets/images/unit9_hotspot.swf" xpos="0" ypos="0"/>
+
+	<!--
+	NOTES
+	item attr audio: it is playing when user click item;
+	item attr playMe: playing audio when is true;
+	itemText attr showMe: is true when the item is a text;
+	itemText attr bgColor: it is background color(in hex) for the item text. If this is not neccesary leave this attr blank(eg. bgColor="");           
+	label attr showMe: it load label image and show this;
+	-->
+
+	<hot_spots>
+        <item xpos="339" ypos="373" width="113" height="64" audio="content/hotspot/assets/audio/jeans.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">jeans</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label.swf" xpos="316" ypos="438"><![CDATA[<font size="20">jeans</font>]]></label>
+        </item>
+        <item xpos="334" ypos="268" width="72" height="41" audio="content/hotspot/assets/audio/pajamas.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">pajamas</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label.swf" xpos="404" ypos="261"><![CDATA[<font size="20">pajamas</font>]]></label>
+        </item>
+        <item xpos="170" ypos="350" width="100" height="110" audio="content/hotspot/assets/audio/a_tracksuit.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">a tracksuit</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label.swf" xpos="52" ypos="352"><![CDATA[<font size="20">a tracksuit</font>]]></label>
+        </item>
+        <item xpos="145" ypos="251" width="50" height="78" audio="content/hotspot/assets/audio/a_shirt.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">a shirt</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label.swf" xpos="172" ypos="216"><![CDATA[<font size="20">a shirt</font>]]></label>
+        </item>
+        <item xpos="336" ypos="310" width="44" height="27" audio="content/hotspot/assets/audio/slippers.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">slippers</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label.swf" xpos="375" ypos="321"><![CDATA[<font size="20">slippers</font>]]></label>
+        </item>
+        <item xpos="142" ypos="405" width="41" height="31" audio="content/hotspot/assets/audio/sneakers.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">sneakers</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label.swf" xpos="26" ypos="405"><![CDATA[<font size="20">sneakers</font>]]></label>
+        </item>
+        <item xpos="267" ypos="418" width="27" height="37" audio="content/hotspot/assets/audio/sneakers.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">sneakers</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label.swf" xpos="26" ypos="405"><![CDATA[<font size="20">sneakers</font>]]></label>
+        </item>
+      </hot_spots>
+</game>
+
+
+
+
+
+
+
+
+
+
+
+

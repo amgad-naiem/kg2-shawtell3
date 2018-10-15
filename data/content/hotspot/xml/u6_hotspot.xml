@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<rubricText>
+		<text><![CDATA[<font size="20"><b>Click and listen.</b></font>]]></text>
+	</rubricText>
+	<introAudio url="content/hotspot/assets/intro.mp3" playMe="false"/>
+	  
+	<!--   NOTES for extraGeneralAudio: attribute "included" affects on the soundButton  -->
+	<extraGeneralAudio included="false" url="content/hotspot/assets/bag.mp3"/>
+	<exerciseImage showMe="true" url="content/hotspot/assets/images/unit6_hotspot.swf" xpos="0" ypos="0"/>
+
+	<!--
+	NOTES
+	item attr audio: it is playing when user click item;
+	item attr playMe: playing audio when is true;
+	itemText attr showMe: is true when the item is a text;
+	itemText attr bgColor: it is background color(in hex) for the item text. If this is not neccesary leave this attr blank(eg. bgColor="");           
+	label attr showMe: it load label image and show this;
+	-->
+
+		<hot_spots>
+        <item xpos="72" ypos="323" width="260" height="161" audio="content/hotspot/assets/audio/lion.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">lion</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label.swf" xpos="108" ypos="462"><![CDATA[<font size="20">lion</font>]]></label>
+        </item>
+        <item xpos="485" ypos="222" width="147" height="88" audio="content/hotspot/assets/audio/elephant.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">elephant</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label.swf" xpos="497" ypos="293"><![CDATA[<font size="20">elephant</font>]]></label>
+        </item>
+        <item xpos="72" ypos="168" width="184" height="153" audio="content/hotspot/assets/audio/giraffe.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">giraffe</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label.swf" xpos="140" ypos="150"><![CDATA[<font size="20">giraffe</font>]]></label>
+        </item>
+        <item xpos="358" ypos="365" width="358" height="105" audio="content/hotspot/assets/audio/crocodile.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">crocodile</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label.swf" xpos="572" ypos="430"><![CDATA[<font size="20">crocodile</font>]]></label>
+        </item>
+        <item xpos="635" ypos="223" width="66" height="32" audio="content/hotspot/assets/audio/parrot.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">parrot</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label.swf" xpos="611" ypos="184"><![CDATA[<font size="20">parrot</font>]]></label>
+        </item>
+        <item xpos="466" ypos="139" width="158" height="76" audio="content/hotspot/assets/audio/monkey.mp3" playMe="true">
+		<itemText showMe="false" xpos="100" ypos="525" bgColor="0xFFFFFF"><![CDATA[<font size="18">monkey</font>]]></itemText>
+          <label showMe="true" url="content/hotspot/assets/txt_label.swf" xpos="486" ypos="104"><![CDATA[<font size="20">monkey</font>]]></label>
+        </item>
+      </hot_spots>
+</game>
+
+
+
+
+
+
+
+
+
+
+
+

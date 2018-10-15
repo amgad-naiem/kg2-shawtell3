@@ -1,0 +1,46 @@
+<compositequiz>
+  <quizzes>
+    <quiz id="1" type="MediaSubtitle">
+      <rubric><![CDATA[<b></b>]]></rubric>
+      <videoPlayer name="video" video="content/video_player/assets/video/animated_story.swf"/>
+      <media interval="100" path="video">
+        <event time="8500">
+          <action type="newText" value="text"><![CDATA[Hello, Pat!]]></action>
+        </event>
+        <event time="10200">
+          <action type="newText" value="text"><![CDATA[Hi, Jig!]]></action>
+        </event>
+        <event time="11700">
+          <action type="newText" value="text"><![CDATA[]]></action>
+        </event>
+        <event time="15800">
+          <action type="newText" value="text"><![CDATA[This is my balloon.]]></action>
+        </event>
+        <event time="20000">
+          <action type="newText" value="text"><![CDATA[This is my car.]]></action>
+        </event>
+        <event time="22500">
+          <action type="newText" value="text"><![CDATA[]]></action>
+        </event>
+        <event time="28100">
+          <action type="newText" value="text"><![CDATA[Sit down, Jig.]]></action>
+        </event>
+        <event time="31700">
+          <action type="newText" value="text"><![CDATA[OK.]]></action>
+        </event>
+        <event time="33700">
+          <action type="newText" value="text"><![CDATA[]]></action>
+        </event>
+        <event time="38800">
+          <action type="newText" value="text"><![CDATA[Get ready. 5, 4, 3, 2, 1!]]></action>
+        </event>
+        <event time="47600">
+          <action type="newText" value="text"><![CDATA[Goodbye!]]></action>
+        </event>
+        <event time="52300">
+          <action type="newText" value="text"><![CDATA[]]></action>
+        </event>
+      </media>
+    </quiz>
+  </quizzes>
+</compositequiz>

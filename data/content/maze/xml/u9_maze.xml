@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<exercise>
+    <rubric><![CDATA[<font size="20"><b>Listen and choose.</b></font>]]></rubric>
+    <imagepath>content/maze/assets/pics/</imagepath>
+    <audiopath>content/maze/assets/audio/</audiopath>
+    
+    <setting columns="5"/>
+    
+    <card image="u9_jeans.jpg" audio="u9_jeans.mp3"/>
+    <card image="u9_pajamas.jpg" audio="u9_pajamas.mp3"/>
+    <card image="u9_tracksuit.jpg" audio="u9_tracksuit.mp3"/>
+    <card image="u9_shirt.jpg" audio="u9_shirt.mp3"/>
+    <card image="u9_slippers.jpg" audio="u9_slippers.mp3"/>
+    <card image="u9_sneakers.jpg" audio="u9_sneakers.mp3"/>
+    
+</exercise>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<styles name="500_renderer">
+	<fonts>
+		<font name="Default">
+			<skin linkname="CustomVerdana">shared_assets/fonts/customverdana.swf</skin>
+		</font>
+		<font name="Phonetic">
+			<skin linkname="Phonetic">shared_assets/fonts/phonetic.swf</skin>
+		</font>
+		<font name="Infant">
+	    <skin linkname="Infant">shared_assets/fonts/infant.swf</skin>
+	</font>
+	</fonts>
+
+	<buttons>
+		<button name="ShowHideTextButton" visible="false" x="755" y="348">
+			<skin linkname="button_show_hide">shared_assets/generic/button_show_hide.swf</skin>
+			 <audio>shared_assets/audio/click_low.mp3</audio>
+		</button>
+	</buttons>
+	<assets>
+		<asset name="Rubric" fontColor="0x000000" fontSize="20"  visible="true" x="20" y="20">
+			<!--<skin linkname="skin_rubric">shared_assets/generic/skin_rubric.swf</skin> -->
+		</asset>
+
+		<asset name="TemplateBackground" visible="true">
+			<skin linkname="skin_template_bg">shared_assets/generic/skin_template_bg_OLD.swf</skin>
+		</asset>
+
+		<asset name="VideoPlayer" x="60" y="80" visible="true" width="663" height="440">
+			<skins>
+				<asset name="ProgressBarSkin">
+					<skin linkname="Video_skin_bg">shared_assets/generic/video_skin_bg.swf</skin>
+				</asset>
+				<asset name="VideoThumb">
+					<skin linkname="Video_button_seekbar_thumb">shared_assets/generic/video_button_seekbar_thumb.swf</skin>
+				</asset>
+				<asset name="VideoSeekbar">
+					<skin linkname="seekbar">shared_assets/generic/skin_video_seekbar.swf</skin>
+				</asset>
+				<asset name="PlayPauseButton">
+					<skin linkname="Video_button_play_pause">shared_assets/generic/video_button_play_pause.swf</skin>
+				</asset>
+				<asset name="StopButton">
+					<skin linkname="Video_button_stop">shared_assets/generic/video_button_stop.swf</skin>
+				</asset>
+				<asset name="FullScreenButton">
+					<skin linkname="Video_button_fullscreen">shared_assets/generic/video_button_fullscreen.swf</skin>
+				</asset>
+				<asset name="VolumeButton">
+					<skin linkname="Video_button_volume">shared_assets/generic/video_button_volume.swf</skin>
+				</asset>
+				<asset name="VolumeSeekbar">
+					<skin linkname="Video_skin_volumebar">shared_assets/generic/video_skin_volumebar.swf</skin>
+				</asset>
+				<asset name="VolumeSeekbarBg">
+					<skin linkname="video_skin_volume">shared_assets/generic/video_skin_volume.swf</skin>
+				</asset>
+				<asset name="VideoPlayCenterButton">
+					<skin linkname="video_button_play_center">shared_assets/generic/video_button_play_center.swf</skin>
+				</asset>
+				<asset name="VideoBufferPreloader">
+					<skin linkname="video_skin_buffer_preloader">shared_assets/generic/video_skin_buffer_preloader.swf</skin>
+				</asset>
+
+
+			</skins>
+		</asset>
+
+		<asset name="SubtitleText" align="center" backgroundAlpha="1" backgroundColor="0xffffff" border="false" borderColor="0xFF0000" fontColor="0x000000" fontSize="23" height="35" highlightAlpha="0.4" highlightColor="0xff0000" visible="true" width="580" x="75" y="540"/>
+		
+		<!--width in fullscreen by default is taken as the unscaled width of the stage and y based on the video, if still the widh and y is given in xml. we are considering the width and y given in xml-->
+		<asset name="SubtitleFullScreenText" align="center" backgroundAlpha="1" backgroundColor="0x000000" border="false" borderColor="0xFF0000" fontColor="0xffffff" fontSize="50" height="65" highlightAlpha="0.4" highlightColor="0xff0000" visible="true" width="" x="0" y=""/>
+		
+		<!--Full screen rubric-->
+		<asset name="FSRubric" fontColor="0x0000FF" fontSize="20" visible="false" x="50" y="50">
+		</asset>
+	</assets>
+</styles>

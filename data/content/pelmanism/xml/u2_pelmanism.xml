@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<exercise>
+    <rubric><![CDATA[<font size="20"><b>Click and listen. Match.</b></font>]]></rubric>
+    <imagepath>content/pelmanism/assets/images/</imagepath>
+    <audiopath>content/pelmanism/assets/audio/</audiopath>
+    
+    <card audio="u2_meat.mp3">u2_meat.jpg:u2_meat.jpg</card>
+    <card audio="u2_vegetables.mp3">u2_vegetables.jpg:u2_vegetables.jpg</card>
+    <card audio="u2_fruit.mp3">u2_fruit.jpg:u2_fruit.jpg</card>
+    <card audio="u2_pasta.mp3">u2_pasta.jpg:u2_pasta.jpg</card>
+    <card audio="u2_rice.mp3">u2_rice.jpg:u2_rice.jpg</card>
+    <card audio="u2_milk.mp3">u2_milk.jpg:u2_milk.jpg</card>
+</exercise>

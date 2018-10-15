@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<styles>
+	
+	<images>
+		<image item="preloader" xpos="300" ypos="200">shared_assets/generic/GSM/anim_preloader.swf</image>
+	</images>
+	<buttons>
+		
+		<button item="start" visible="true" xpos="427" ypos="518">
+			<image>shared_assets/generic/GSM/button_start.swf</image>
+			<audio>shared_assets/audio/click_low.mp3</audio>
+		</button>
+		<button item="reset" visible="false" xpos="350" ypos="210">
+			<image>shared_assets/generic/GSM/button_play_again.swf</image>
+			<audio>shared_assets/audio/click_low.mp3</audio>
+		</button>
+	</buttons>
+	<sounds>
+		<sound item="correct">
+			<link>shared_assets/audio/correct.mp3</link>
+		</sound>
+		<sound item="wrong">
+			<link>shared_assets/audio/wrong.mp3</link>
+		</sound>
+	</sounds>
+	<assets>
+	<!-- **
+		rubric ITEM (inherent asset)  :: THIS ASSET IS EMPTY - IT CONTROLS LAYOUT OF RUBRIC 'ASSET' WITHIN THE TEMPLATE
+			xpos,ypos ATTRIBUTEs :: sets the coordinates on the canvas. 
+			width ATTRIBUTE :: sets the width of the rubric. br tag can be used to linebreak the rubric text.
+			color ATTRIBUTE: RGB value of colour of the text.
+		** -->
+		
+		<asset item="rubric" xpos="10" ypos="10" width="750" color="#000000"/>
+		<!-- shufflemodes: random, separatedhorizontal, separatedvertical -->
+		<!--panespacing  = padding between the two groups groups - ignored if shufflemode is random-->
+		<asset item="cards" xorig="130" xstep="190" 
+							yorig="60" ystep="110" 
+							imageoffsetX="-0" imageoffsetY="0"
+							columns="3" 
+							shufflemode="separatedvertical" 	
+							initialreveal="4" 
+							cardscale="100" 
+							turnovertime="1.6" 
+							panespacing="100" 
+							fadealpha="80"
+							> 
+			<image>content/pelmanism/assets/images/small_card.swf</image>
+
+		</asset>
+		<asset item="textbox">
+			<image>shared_assets/generic/GSM/textbox.swf</image>		
+		</asset>
+		<!--times allowed in seconds-->
+		<asset item="timer" xpos="130" ypos="520" time="120">
+			<image>shared_assets/generic/GSM/timer.swf</image>
+			<!--<audio name="tick" delay="1000">data/content/audio/tick.mp3</audio>-->
+			<audio name="time_out">content/pelmanism/assets/audio/time_out.mp3</audio>
+		</asset>
+		<asset item="feedback" visible="true" xpos="225" ypos="122">
+			<image>shared_assets/generic/GSM/feedback_pelmanism.swf</image>
+		</asset>
+		
+	</assets>
+	<feedbacklist>
+		<feedback score="20%">Try again!</feedback><!--if score is less than or equal to value-->
+		<feedback score="60%">Good try!</feedback>
+		<feedback score="90%">Good job!</feedback>
+		<feedback score="100%">Good job!</feedback>
+	</feedbacklist>
+</styles>

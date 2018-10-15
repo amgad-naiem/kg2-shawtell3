@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<styles>
+        <preloader url="shared_assets/generic/ydp/anim_preloader.swf" xpos="350" ypos="200"/>
+
+<!--   NOTES for textfield:  it is the text box used for the options' text  -->
+        <textBox url="shared_assets/generic/ydp/textField.swf"/>
+
+<!--   NOTES for rubric background:  it is the background used for the rubric text. Use showMe attribute to show rubric background -->
+        <rubricBg showMe="false" url="shared_assets/generic/ydp/rubricBg.swf" xpos="190" ypos="500"/>
+
+<!--   NOTES for rubric text:  Use showMe attribute to show rubric text -->
+		<rubricText showMe="true" xpos="10" ypos="10" width="600"/>
+
+<!--   NOTES for background:  it is the image used for the background. Use showMe attribute to show this image. -->
+        <background showMe="false" url="shared_assets/ydp/swfs/bg_hotspot_2.swf" xpos="0" ypos="0"/>
+
+<!--   NOTES for sound play/pause button:  it is the button used for stop or play sound.
+		SoundButton is optional and depends on the value of extraGeneralAudio attribute "included" in content.xml.	-->
+        <soundButton url="shared_assets/ydp/swfs/button_play_pause.swf" xpos="580" ypos="500" showProgress="true" soundOver="shared_assets/audio/silent.mp3" soundClick="shared_assets/audio/silent.mp3" />
+
+<!--   NOTES for debug:  it is the hit area used for the hotspots. Use showMe attribute to show this. -->
+        <debug showMe="false"/>
+        <hitArea width="742" height="422" xpos="83" ypos="67" showMe="false"/>
+        <imageArea width="742" height="422" xpos="83" ypos="67" showMe="false"/>
+</styles>
+
+
+
+
+
+
+
+
